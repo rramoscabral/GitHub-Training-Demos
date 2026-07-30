@@ -2,7 +2,7 @@
 
 Welcome to the **GitHub Training Demos** repository.
 
-This repository contains practical demonstrations used in GitHub training sessions delivered by **Ricardo Cabral**. Each folder represents a different scenario, feature, or use case designed to help trainees/participants understand and gain hands-on experience with GitHub.
+This repository contains practical demonstrations used in GitHub training sessions delivered by [**Ricardo Cabral**](https://www.ricardocabral.eu). Each folder represents a different scenario, feature, or use case designed to help trainees/participants understand and gain hands-on experience with GitHub.
 
 ## Purpose
 
