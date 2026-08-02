@@ -1,0 +1,8 @@
+name: Call Reusable Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    uses: ./.github/workflows/reusable-workflow.yml

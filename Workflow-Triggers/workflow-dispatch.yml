@@ -1,0 +1,18 @@
+name: Workflow Dispatch Demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Environment
+        required: true
+        default: DEV
+
+jobs:
+  run-demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: |
+          echo "Workflow started manually"
+          echo "Environment: ${{ inputs.environment }}"

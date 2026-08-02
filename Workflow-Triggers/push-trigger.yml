@@ -1,0 +1,17 @@
+name: Push Trigger Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  display-info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display trigger information
+        run: |
+          echo "Workflow triggered by a push event"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
