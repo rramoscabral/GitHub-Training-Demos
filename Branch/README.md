@@ -6,6 +6,9 @@ So it's a parallel development, collaboration, and code organization whiteout af
 
 Every repository have main or master branch when you initialize a new Git repository. This is the default branch.
 
+[Learn Git Branching](https://learngitbranching.js.org/) is the most visual and interactive way to learn Git on the web. You'll be challenged with exciting levels, given step-by-step demonstrations of powerful features, and maybe even have a bit of fun along the way.
+
+
 
 # Branch VS Fork VS Clone
 - A branch must exist inside a single repository.
